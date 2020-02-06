@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Untitled Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <style>
+
+    body {
+    padding: 0px;
+    margin: 0px;
+    }
+
+    header, footer{
+    background-color: aqua;
+    width: 100%;
+    padding: 6px;
+    position:fixed;
+    }
+
+    header *{
+    margin:4% 2%;
+    }
+    main .container div:first-child{
+    background-color: chartreuse;
+    }
+    main .container div {
+    background-color: brown;
+    border: thin solid #000;
+    margin: 1% 5%;
+    }
+
+    main {
+    padding-top: 130px;
+    }
+
+    footer {
+    bottom: 0;
+    }
+
+
+    @media only screen and (min-width: 460px) {
+    header, footer{
+    background-color: green;
+    }
+
+    .container {
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-flex;
+    }
+    }
+
+
+    @media only screen and (min-width: 560px) {
+    header, footer{
+    background-color: blueviolet;
+    }
+    }
+
+  </style>
+  <header>
+
+    <h1>Responsive Demo</h1>
+
+    <h2>Class Worker Demo</h2>
+
+  </header>
+
+  <main>
+    <div class="container">
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    </div>
+    <div class="container">
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    </div>
+    <div class="container">
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    </div>
+    <div class="container">
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    </div>
+    <div class="container">
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    </div>
+    <div class="container">
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    </div>
+    <div class="container">
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    </div>
+    <div class="container">
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    <div>DIV 01</div>
+    <div>DIV 02</div>
+    </div>
+  </main>
+
+  <footer>
+    <h4>FOOTER</h4>
+  </footer>
+
+</body>
+</html>
