@@ -11,6 +11,8 @@ header, footer{
   width: 100%;
   padding: 6px;
   position:fixed;
+  max-height: 150px;
+  padding-left: 2%;
 }
 
 .grid-template{
@@ -71,4 +73,14 @@ header, footer{
 img{
   max-width: 250px;
   /* grid-column: 1 / -1; */
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+footer {
+  bottom: 0;
 }
